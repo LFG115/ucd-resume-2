@@ -3,7 +3,22 @@
 /*------------------------------------------ Colours */
 .bg-name-color-title {
     background-color: #676767;
-    color: white;
+}
+
+.ui-menu-color-home {
+    background-color: rgb(160, 255, 160);
+}
+
+.ui-menu-color-resume {
+    background-color: rgb(255, 191, 119);
+}
+
+.ui-menu-color-contact {
+    background-color: rgb(255, 250, 105);
+}
+
+.ui-menu-color-download {
+    background-color: rgb(225, 176, 255);
 }
 
 /*------------------------------------------ Heading */
@@ -30,4 +45,29 @@ header {
 .name {
     font-family: "Exo", sans-serif;
     font-weight: 100;
+    font-size: 46px;
+    margin-top: 50px;
+    color: white;
+}
+
+.title {
+    font-family: "Roboto" sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: white;
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
 }
