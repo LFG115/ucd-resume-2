@@ -9,6 +9,10 @@
     background-color: #fff;
 }
 
+.bg-color-personal-info {
+    background-color: #f4f4f4;
+}
+
 .ui-menu-color-home {
     background-color: rgb(160, 255, 160);
 }
@@ -205,4 +209,15 @@ footer {
 
 #footer-details {
     padding: 20px;
+}
+
+/*---------------------------------------------- 3 Reasons */
+
+.three-reasons-icon {
+    font-size: 28px;
+    color: rgb(255, 191, 119);
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
 }
